@@ -1,0 +1,27 @@
+
+const EXPERIENCE = [
+  {
+    role: 'Wireless Network Integration Engineer',
+    company: 'Your Company',
+    period: '2023 – Present',
+    bullets: [
+      'Designed and deployed Wi-Fi 6 networks',
+      'Automated configuration validation using Python',
+      'Improved throughput by 25% via RF tuning'
+    ]
+  }
+];
+
+const PROJECTS = [
+  {
+    name: 'Wi-Fi Survey Toolkit',
+    description: 'Scripts for RF planning and reporting',
+    link: 'https://github.com/yourusername/wifi-survey'
+  },
+  {
+    name: 'Zero-Touch AP Provisioning',
+    description: 'CI/CD workflow for AP configs',
+    link: 'https://github.com/yourusername/ap-provisioning'
+  }
+];
+``
