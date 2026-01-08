@@ -2,26 +2,45 @@
 const EXPERIENCE = [
   {
     role: 'Wireless Network Integration Engineer',
-    company: 'Your Company',
+    company: 'Cox Communications',
     period: '2023 – Present',
     bullets: [
-      'Designed and deployed Wi-Fi 6 networks',
-      'Automated configuration validation using Python',
-      'Improved throughput by 25% via RF tuning'
+      'Led Wi-Fi 6/6E network integrations across multiple sites',
+      'Automated configuration validation using Python & CI/CD',
+      'Improved throughput by 25% via RF tuning and spectrum analysis'
+    ]
+  },
+  {
+    role: 'Network Engineer',
+    company: 'Verizon',
+    period: '2020 – 2022',
+    bullets: [
+      'Designed and deployed LAN/WAN architecture for regional offices',
+      'Implemented VLAN segmentation and QoS policies for VoIP traffic',
+      'Performed network audits and security hardening'
+    ]
+  },
+  {
+    role: 'Network Support Engineer',
+    company: 'Infosys',
+    period: '2018 – 2020',
+    bullets: [
+      'Provided L2/L3 support for enterprise networks',
+      'Configured Cisco routers, switches, and wireless controllers',
+      'Monitored network health using SNMP and NetFlow'
     ]
   }
 ];
 
 const PROJECTS = [
   {
-    name: 'Wi-Fi Survey Toolkit',
-    description: 'Scripts for RF planning and reporting',
+    name: 'Wi-Fi Site Survey Toolkit',
+    description: 'Python scripts for RF planning and reporting',
     link: 'https://github.com/yourusername/wifi-survey'
   },
   {
     name: 'Zero-Touch AP Provisioning',
     description: 'CI/CD workflow for AP configs',
-    link: 'https://github.com/yourusername/ap-provisioning'
+       link: 'https://github.com/yourusername/ap-provisioning'
   }
-];
-``
+
